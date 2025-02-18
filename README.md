@@ -30,15 +30,9 @@ This project is a React application that includes various components for user in
 
 ## Application Structure
 
-- **Main Application Component:** `src/App.js`
+- **Main Application Component:** `src/App.jsx`
   - Sets up routing for the application using React Router.
   - Defines routes for the Home, Sign In, Sign Up, Dashboard, Counter, and Rich Text Editor components.
-
-- **Entry Point:** `src/index.js`
-  - Renders the App component into the root DOM element.
-
-- **Global Styles:** `src/styles.css`
-  - Contains the global styles for the application.
 
 ## Installation
 
