@@ -47,10 +47,8 @@ npm install
 After installing the dependencies, you can start the application with:
 
 ```bash
-npm start
+npm run dev
 ```
-
-This will run the app in development mode, and you can view it in your browser at `http://localhost:3000`.
 
 ## License
 
