@@ -28,8 +28,9 @@ const SignUp = () => {
         // setPassword('')
     }
     return (
-        <div className='p-7 h-screen w-full flex justify-between flex-col'>
-        <div>
+        <div className='h-screen flex justify-center items-center bg-gray-100'>
+        <div className="bg-white shadow-lg rounded-lg p-8 w-full max-w-md">
+        <h1 className="text-2xl font-semibold text-center mb-4">Sign Up</h1>
             <form onSubmit={(e)=>{
                 submitHandler(e)}
             }>

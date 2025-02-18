@@ -8,7 +8,7 @@ import Home from './components/Home';
 import DashboardComp from './components/DashboardComp';
 import SignIn from './components/SignIn';
 import SignUp from './components/SignUp';
-import PrivateRoute from './components/PrivateRoute';
+
 
 
 const App = () => {
@@ -33,8 +33,7 @@ const App = () => {
             <Route path="/counter" element={<CounterComp />} />
             <Route path="/user" element={<UserComp />} />
             <Route path="/editor" element={<RichTextComp />} />
-            <Route path="/dashboard" element={<PrivateRoute element={<DashboardComp />} />} />
-            {/* <Route path="/dashboard" element={<DashboardComp />} /> */}
+            <Route path="/dashboard" element={<DashboardComp />} />
           </Routes>
         </animated.div>
       ))}

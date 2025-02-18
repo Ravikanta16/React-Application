@@ -13,7 +13,7 @@ const CounterComp = () => {
     return (
         <div 
             style={{ backgroundColor }} 
-            className="h-screen border-2 border-black rounded-lg flex flex-col items-center justify-center"
+            className="h-screen border-2 border-gray-400 rounded-lg flex flex-col items-center justify-center"
         >
             <div className='border-2 border-gray-300 bg-gray-200 rounded-lg p-6'>  
             <h1 className="flex text-4xl font-bold items-center justify-center text-red-400">{count}</h1>

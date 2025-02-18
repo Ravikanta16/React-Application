@@ -16,7 +16,6 @@ const RichTextComp = () => {
         value={editorContent}
         onChange={handleEditorChange}
         theme="snow"
-        placeholder='type here...'
       />
       <div>
         <h4 className="text-xl font-semibold mb-3">Output:</h4>
